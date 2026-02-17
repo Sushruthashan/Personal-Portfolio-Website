@@ -327,17 +327,6 @@ tr:hover {
         font-size: 0.95rem;
     }
 
-    p  {
-        text-align: justify;
-        text-justify: inter-word;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        line-height: 1.7;
-        word-break: break-word;
-        overflow-wrap: break-word;
-    }
-
     /* ---------- Profile Section ---------- */
     .profile {
         flex-direction: column;
