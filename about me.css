@@ -130,10 +130,15 @@
         font-size: 1.6rem;
     }
 
-     p {
-        text-align: left !important;
+p {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
         line-height: 1.7;
-        word-spacing: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
 
 }
