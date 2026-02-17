@@ -130,9 +130,11 @@
         font-size: 1.6rem;
     }
 
-    p {
-        font-size: 0.95rem;
-        line-height: 1.6;
+     p {
+        text-align: left !important;
+        line-height: 1.7;
+        word-spacing: normal;
     }
+
 }
 

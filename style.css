@@ -327,6 +327,13 @@ tr:hover {
         font-size: 0.95rem;
     }
 
+    p {
+        text-align: left !important;
+        line-height: 1.7;
+        word-spacing: normal;
+    }
+
+
     /* ---------- Profile Section ---------- */
     .profile {
         flex-direction: column;
