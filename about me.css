@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Section Styling */
+#about {
+    background-color: #f5f5f5;
+    padding: 60px 10%;
+}
+
+/* Flexbox Layout */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Text Section Styling */
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/* Stylish Underline Effect */
+.about-text h2::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: #f72585;
+    bottom: -5px;
+    left: 0;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: whitesmoke;
+    line-height: 1.8;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Strong Text Styling */
+.about-text p strong {
+    color: lightblue;
+    font-weight: 600;
+}
+
+/* Image Section Styling */
+.about-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* Image Hover Effect */
+.about-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 25px;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+}

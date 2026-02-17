@@ -1,0 +1,589 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-image: url('https://www.imageshine.in/uploads/gallery/low-poly-art-light-background-pictures.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position:relative;
+    align-self: center;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVSeFu7YnVoMDLvaF5V-8Cge4aidq5xplFg&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #e3f2fd;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e3f2fd;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/006/596/933/small_2x/abstract-dark-red-background-dark-lines-glow-waves-flicker-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.projects, .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: lightgray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+    text-align: left;
+}
+
+.project-card img {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h4 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.certification-card {
+    background: lightgray;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.certification-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.certification-card .content {
+    padding: 15px;
+}
+
+.certification-card h3 {
+    margin: 0 0 10px;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.certification-card p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile .info {
+    flex: 1;
+}
+
+.profile .info h2 {
+    margin: 0;
+    color: #555;
+}
+
+.profile .info p {
+    margin: 5px 0;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVSeFu7YnVoMDLvaF5V-8Cge4aidq5xplFg&s');
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color:#333;
+}
+
+tr:hover {
+    background-color: black;
+}
+
+.activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.activity-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.activity-card .content {
+    padding: 15px;
+}
+
+.activity-card h3 {
+    margin: 0;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.activity-card p {
+    margin: 10px 0 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.activity-card .date {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 5px;
+}
+=======
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-image: url('https://designshack.net/wp-content/uploads/background-textures.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position:relative;
+    align-self: center;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://graphicdesignjunction.com/wp-content/uploads/2014/05/001+background+pattern+designs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #e3f2fd;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e3f2fd;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/236x/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.projects, .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h4 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: grey;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project-card pre{
+    margin: 0;
+    font-size: 1rem;
+    color: grey;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.certification-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.certification-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.certification-card .content {
+    padding: 15px;
+}
+
+.certification-card h3 {
+    margin: 0 0 10px;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.certification-card p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile .info {
+    flex: 1;
+}
+
+.profile .info h2 {
+    margin: 0;
+    color: #555;
+}
+
+.profile .info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color:#333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.activity-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.activity-card .content {
+    padding: 15px;
+}
+
+.activity-card h3 {
+    margin: 0;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.activity-card p {
+    margin: 10px 0 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.activity-card .date {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 5px;
+}
+>>>>>>> 8954dd88f0565be425c26b3beb6cfff53168790e

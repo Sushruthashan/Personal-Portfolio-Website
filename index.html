@@ -1,0 +1,662 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll(".section").forEach(section => {
+                section.style.display = "none";
+            });
+            document.getElementById(sectionId).style.display = "block";
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+            showSection("about");
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Sushrutha Shanbhogue</h1>
+        <p>Cyber Security Enthusiast | Front-end Developer | Java & Python Programmer</p>
+        <img src="./public/Sush3.jpg" alt="Sushrutha" class="profile-image">
+    </header>
+
+    <nav>
+        <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('academics')">Academics</a>
+        <a href="#" onclick="showSection('projects')">Projects</a>
+        <a href="#" onclick="showSection('cert')">Certifications</a>
+        <a href="#" onclick="showSection('curricular')">Extra-curricular</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+
+<!--About-->
+
+<section id="about" class="section">
+    <link rel="stylesheet" href="about me.css">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a third-year Computer Science undergraduate at 
+                <strong>Sahyadri College of Engineering and Management, Mangalore</strong>. 
+                Being an avid learner, I like to explore key areas in the field of Computer 
+                Science such as <strong>Cyber Security</strong> and <strong>Machine Learning</strong>. 
+                I am an ambitious and passionate student with a strong foundation in Computer Science 
+                and a creative flair for <strong>front-end development</strong>. Driven by a relentless 
+                curiosity for innovation and continuous learning, I am dedicated to exploring 
+                cutting-edge technologies and transforming ideas into impactful solutions. 
+                With a knack for problem-solving and a proactive approach to leadership, I actively 
+                contribute to technical events, fostering collaboration and knowledge sharing. 
+                Eager to take on new challenges, I aspire to build solutions that make a difference 
+                while continuously evolving as a tech enthusiast.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="D:\Sushrutha Shanbhogue\Placement_Projects\Personal Portfolio Website\public\Sush1.jpg" 
+                 alt="Sushrutha Shanbhogue">
+        </div>
+    </div>
+</section>
+
+
+<!--Projects-->
+
+    <section id="projects" class="section" style="display: none;">
+        <h2>Projects</h2>
+        <div class="projects">
+
+<!--Project 1-->
+
+            <div class="project-card">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1110766347/thumb/1.jpg?ip=x480" alt="Project 1">
+                <h4>Image Forgery Detection using CNN</h4>
+
+                <p>
+This project focuses on developing a system to detect tampered or forged regions in digital images using deep learning techniques. By leveraging Convolutional Neural Networks (CNNs) for feature extraction , the model can identify common forgery techniques like copy-move, splicing, and image retouching. Using publicly available datasets like CASIA or CoMoFoD, the system generates a heatmap highlighting manipulated areas, aiding in the verification of image authenticity. This solution is valuable for journalism, law enforcement, and forensic investigations to combat misinformation and identify altered evidence.<br><br>
+                </p>
+            </div>
+
+<!--Project 2-->
+
+            <div class="project-card">
+                <img src="https://cdn-blog.getastra.com/2024/05/46ea28c3-acunetix-web-app-vulnerability-scanning-dashboard.png" alt="Project 2">
+                <h4>Vulnerability Scanner</h4>
+                
+                    <p>
+                    This Website Vulnerability Scanner is designed to identify security vulnerabilities in web applications, servers, and websites, helping developers and security professionals secure their systems from potential attacks. It performs automated scans for common vulnerabilities like SQL injection, XSS, and CSRF, detects misconfigurations, and uses tools like Nmap, SQLmap, and OWASP ZAP for deeper analysis. The scanner provides real-time reports with severity ratings and remediation suggestions, allowing security teams to address risks promptly. It supports both web-based and command-line interfaces, enhancing security by ensuring compliance with standards like OWASP Top 10 and PCI DSS.
+                    </p>
+            </div>
+
+<!--Project 3-->
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Network packet Sniffer</h3>
+                <p>A brief description of Project 3.</p>
+            </div>
+        </div>
+
+<!--Project 4-->
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of Project 3.</p>
+            </div>
+        </div>
+
+<!--Project 5-->
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of Project 3.</p>
+            </div>
+        </div>
+    </section>
+
+<!--Contact-->
+
+    <section id="contact" class="section" style="display: none;">
+        <br><h2>Contact Me</h2>
+        <p>Email: <a href="shanbhoguesushrutha@gmail.com">shanbhoguesushrutha@gmail.com</a></p><br>
+        <p>LinkedIn: <a href = "https://www.linkedin.com/in/sushrutha-shanbhogue-3b36b91b5/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Beu4M2lXbRuqCXl4iYvLh9g%3D%3D">LinkedIn profile</a></p><br>
+        <p>Instagram: <a href = "https://www.instagram.com/sushrutha_shan?igsh=MTJjZTNhYW51NnZyMA==">Instagram profile</a></p><br>
+        <p>Phone: +91 8767948313</p><br>
+    </section>
+
+<!--Academics-->
+
+    <section id = "academics" class = "section" style="display: none;">
+
+        <div class="profile">
+            <img src="./public/Sush2.jpeg" alt="Student Photo">
+            <div class="info">
+                <p>University Seat Number: 4SF22CS225</p>
+                <p>Program: Bachelor of Technology in Computer Science</p>
+                <p>Sahyadri College of Engineering and Management</p>
+            </div>
+        </div>
+
+        <!-- Academic Performance Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Semester</th>
+                    <th>Subjects</th>
+                    <th>GPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Semester 1</td>
+                    <td>Math 1, Physics, Principles of Programming</td>
+                    <td>8.95</td>
+                </tr>
+                <tr>
+                    <td>Semester 2</td>
+                    <td>Math 2, Chemistry, Civil, CAED</td>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <td>Semester 3</td>
+                    <td>Data Structures</td>
+                    <td>8.15</td>
+                </tr>
+                <tr>
+                    <td>Semester 4</td>
+                    <td>DAA, OS,</td>
+                    <td>8.68</td>
+                </tr>
+                <tr>
+                    <td>Semester 5</td>
+                    <td>ML, Computer Networks, DBMS, Theory of Computation</td>
+                    <td>8.31</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+<!--Certifications-->
+
+    <section id = "cert" class = "section" style="display: none;">
+        <div class="certification-grid">
+           
+            <div class="certification-card">
+                <img src="./public/IBM Cybersecurity Fundamentals Badge.jpg" alt="Certification 1">
+                <div class="content">
+                    <h3>Cyber Security Fundamentals Badge</h3>
+                    <p>Issued by: IBM</p>
+                    <p>Date: 03 AUG 2024</p>
+                </div>
+            </div>
+
+           
+            <div class="certification-card">
+                <img src="./public/Introduction to Cyber Security.jpg" alt="Certification 2">
+                <div class="content">
+                    <h3>Introduction to Cyber Security</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: July 26 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="./public/Fundamentals of Cryptography.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Fundamentals of Cryptography</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: July 26 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="./public/Database and SQL.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Database and SQL</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: December 20 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="./public/Basics of Python.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Basics of Python</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: June 13 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="./public/Fundamentals of Information Security.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Fundamentals of Information Security</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: July 26 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Extra-curricular activities-->
+
+    
+<section id = "curricular" class = "section" style="display: none;">
+    <div class="activity-list">
+        <div class="activity-card">
+            <img src="D:\Sushrutha Shanbhogue\Placement_Projects\Personal Portfolio Website\public\World Environment Day.jpg" alt="Environment day">
+            <div class="content">
+                <h3>World Environment Day Street Play</h3>
+                <p>Volunteered to take part in a street play aimed to create awareness about modern day enironmental concerns, performing at five different locations across Mangalore, including Panambur Beach and the college campus</p>
+                <p class="date">Date: December 2022</p>
+            </div>
+        </div>
+    
+        <div class="activity-list">
+            <div class="activity-card">
+                <img src="D:\Sushrutha Shanbhogue\Placement_Projects\Personal Portfolio Website\public\Sinchana 2022.jpg" alt="Sinchana">
+                <div class="content">
+                    <h3>Sinchana 2022</h3>
+                    <p>Participated in Sinchana 2022, Sahyadri's annual cultural event, representing first years in the street play competition</p>
+                    <p class="date">Date: December 2022</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="activity-card">
+                <img src="D:\Sushrutha Shanbhogue\Placement_Projects\Personal Portfolio Website\public\Synergia 2023.jpg" alt="Synergia 2023">
+                <div class="content">
+                    <h3>Synergia 2023</h3>
+                    <p>Participated in Synergia 2023, Sahyadri's annual inter-departmental event, pitching solutions for a company specific problem statements in a 20 hour hackathon</p>
+                    <p class="date">Date: December 2023</p>
+                </div>
+            </div>
+
+            <div class="activity-card">
+                <img src="D:\Sushrutha Shanbhogue\Placement_Projects\Personal Portfolio Website\public\Arpan 2024.jpg" alt="Arpan 2024">
+                <div class="content">
+                    <h3>Arpan 2024</h3>
+                    <p>Won runners-up position in the stage play competition at Sahyadri's annual intra-departmental event, Arpan in 2024</p>
+                    <p class="date">Date: May 2024</p>
+                </div>
+            </div>
+
+            <div class="activity-card">
+                <img src="D:\Sushrutha Shanbhogue\Placement_Projects\Personal Portfolio Website\public\Synergia 2024.jpg" alt="Synergia 2024">
+                <div class="content">
+                    <h3>Synergia 2024</h3>
+                    <p>Won 3rd place in the instrumentation competition at Synergia 2024, Sahyadri's annual inter-departmental event</p>
+                    <p class="date">Date: November 2024</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sushrutha Shanbhogue. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll(".section").forEach(section => {
+                section.style.display = "none";
+            });
+            document.getElementById(sectionId).style.display = "block";
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+            showSection("about");
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Sushrutha Shanbhogue</h1>
+        <p>Cyber Security Enthusiast | Python Developer | Web Developer</p>
+        <img src="C:\Users\Suresh Shanbhogue\Downloads\profile img.jpg" alt="Sushrutha" class="profile-image">
+    </header>
+
+    <nav>
+        <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('academics')">Academics</a>
+        <a href="#" onclick="showSection('projects')">Projects</a>
+        <a href="#" onclick="showSection('cert')">Certifications</a>
+        <a href="#" onclick="showSection('curricular')">Extra-curricular</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+
+<!--About-->
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am Sushrutha Shanbhogue, a third year Computer Science undergraduate at Sahyadri College of Engineering and Management, Mangalore.</p>
+        <p>I am an avid learner who likes to explore key areas in the field of Computer Science such as Cyber Security and Machine Learning.</p>
+    </section>
+
+<!--Projects-->
+
+    <section id="projects" class="section" style="display: none;">
+        <h2>Projects</h2>
+        <div class="projects">
+
+<!--Project 1-->
+
+            <div class="project-card">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1110766347/thumb/1.jpg?ip=x480" alt="Project 1">
+                <h4>Image Forgery Detection using CNN and Semantic Segmentation</h4>
+
+                <p>
+<br>This project focuses on developing a system to detect tampered or forged regions in digital images using deep learning
+techniques. The approach combines Convolutional Neural Networks (CNNs) for feature extraction and Semantic Segmentation
+to pinpoint and classify tampered areas at the pixel level.<br><br>
+    Key Features:<br><br>
+    <pre>
+        1. Forgery Types: Detects common forgery techniques like copy-move, 
+            splicing, and image retouching.<br>
+        2. CNNs for Feature Extraction: Utilizes CNNs to automatically 
+            learn intricate patterns or inconsistencies caused by tampering, 
+            such as abrupt changes in texture, lighting, or compression artifacts.<br>
+        3. Semantic Segmentation: Employs segmentation models (e.g., U-Net or
+            Mask R-CNN) to generate pixel-wise predictions, highlighting
+            the tampered regions in the image.<br>
+        4. Dataset: Trains and tests the model using publicly available datasets
+            like CASIA or CoMoFoD, which contain authentic and forged images.<br>
+        5. Output: Produces a heatmap or mask over the input image, clearly 
+            indicating the forged areas.<br><br>
+    Applications:<br>
+        1. Verifying the authenticity of digital images in journalism, law 
+            enforcement, and social media.<br>
+        2. Preventing the spread of fake news and misinformation.<br>
+        3. Assisting forensic experts in identifying altered evidence.<br>
+This project showcases the integration of advanced computer vision techniques
+for addressing a critical challenge in digital forensics.
+        </pre>
+                </p>
+            </div>
+
+<!--Project 2-->
+
+            <div class="project-card">
+                <img src="https://cdn-blog.getastra.com/2024/05/46ea28c3-acunetix-web-app-vulnerability-scanning-dashboard.png" alt="Project 2">
+                <h4>Vulnerability Scanner</h4>
+                <pre>
+This Website Vulnerability Scanner is a tool designed to identify security 
+vulnerabilities in web applications, servers, and websites. It automates
+the process of testing for common vulnerabilities, helping developers
+and security professionals secure their systems from potential attacks. 
+The scanner performs a systematic analysis of web resources, scanning for
+known vulnerabilities such as outdated software, misconfigurations, weak 
+credentials, and insecure code practices.
+
+Key Features
+
+1. Automated Scanning:             
+    Performs a comprehensive scan of websites for vulnerabilities like SQL 
+    injection, XSS, and CSRF.
+    Detects common misconfigurations (e.g., open ports, directory traversal).
+
+2. Integration with Security Tools:
+    Uses tools like Nmap, SQLmap, and OWASP ZAP for deeper scans.
+    Provides support for manual testing for advanced use cases.
+
+4. Real-time Reporting:
+    Generates detailed reports of identified vulnerabilities, risk levels, 
+    and remediation suggestions.
+
+5. Cross-platform Compatibility:
+    Operates as a web-based application or a standalone command-line tool.
+    
+    Typical Workflow
+                    
+6. Target Specification:
+    The user inputs a target website URL or IP address.
+
+7. Initial Reconnaissance:
+    The scanner collects information about the target (e.g., open ports, active
+    services, technology stack).
+
+8. Scanning:
+    Executes tests for vulnerabilities like SQL injection, XSS, weak 
+    authentication, or outdated software versions.
+
+9. Analysis and Reporting:
+    Results are analyzed, and a report is generated with severity ratings and 
+    recommended fixes.
+
+10. Remediation:
+    Developers or security teams address the vulnerabilities to secure the website.
+
+Benefits:
+
+1. Enhances website security by identifying and mitigating risks early.
+2. Saves time and effort by automating repetitive testing tasks.
+3. Helps organizations comply with security standards like OWASP Top 10 
+   or PCI DSS.
+</pre>
+            </div>
+
+<!--Project 3-->
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of Project 3.</p>
+            </div>
+        </div>
+
+<!--Project 4-->
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of Project 3.</p>
+            </div>
+        </div>
+
+<!--Project 5-->
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of Project 3.</p>
+            </div>
+        </div>
+    </section>
+
+<!--Contact-->
+
+    <section id="contact" class="section" style="display: none;">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:john.doe@example.com">shanbhoguesushrutha@gmail.com</a></p>
+        <p>Phone: +91 8767948313</p>
+    </section>
+
+<!--Academics-->
+
+    <section id = "academics" class = "section" style="display: none;">
+
+        <div class="profile">
+            <img src="C:\Users\Suresh Shanbhogue\OneDrive\Documents\Sushrutha\SUSHRUTHA SHANBHOGUE_CS_COMEDK_photo.jpeg" alt="Student Photo">
+            <div class="info">
+                <h2>Sushrutha Shanbhogue</h2>
+                <p>Student USN: 4SF22CS225</p>
+                <p>Program: Bachelor of Technology in Computer Science</p>
+                <p>Sahyadri College of Engineering and Management</p>
+            </div>
+        </div>
+
+        <!-- Academic Performance Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Semester</th>
+                    <th>Subjects</th>
+                    <th>GPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Semester 1</td>
+                    <td>Math 1, Physics, Principles of Programming</td>
+                    <td>8.95</td>
+                </tr>
+                <tr>
+                    <td>Semester 2</td>
+                    <td>Math 2, Chemistry, Civil, CAED</td>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <td>Semester 3</td>
+                    <td>Data Structures</td>
+                    <td>8.15</td>
+                </tr>
+                <tr>
+                    <td>Semester 4</td>
+                    <td>DAA, OS,</td>
+                    <td>8.68</td>
+                </tr>
+                <tr>
+                    <td>Semester 5</td>
+                    <td>ML, Computer Networks, DBMS, Theory of Computation</td>
+                    <td>9.0</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+<!--Certifications-->
+
+    <section id = "cert" class = "section" style="display: none;">
+        <div class="certification-grid">
+           
+            <div class="certification-card">
+                <img src="C:\Users\Suresh Shanbhogue\Downloads\IBM Cybersecurity Fundamentals Badge_page-0001.jpg" alt="Certification 1">
+                <div class="content">
+                    <h3>Cyber Security Fundamentals Badge</h3>
+                    <p>Issued by: IBM</p>
+                    <p>Date: 03 AUG 2024</p>
+                </div>
+            </div>
+
+           
+            <div class="certification-card">
+                <img src="C:\Users\Suresh Shanbhogue\Downloads\Introduction to Cyber Security_page-0001 (2).jpg" alt="Certification 2">
+                <div class="content">
+                    <h3>Introduction to Cyber Security</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: July 26 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="C:\Users\Suresh Shanbhogue\Downloads\Fundamentals of Cryptography_page-0001.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Fundamentals of Cryptography</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: July 26 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="C:\Users\Suresh Shanbhogue\Downloads\Database and SQL_page-0001.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Database and SQL</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: December 20 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="C:\Users\Suresh Shanbhogue\Downloads\Basics of Python_page-0001.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Basics of Python</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: June 13 2024</p>
+                </div>
+            </div>
+
+            <div class="certification-card">
+                <img src="C:\Users\Suresh Shanbhogue\Downloads\Fundamentals of Information Security_page-0001.jpg" alt="Certification 3">
+                <div class="content">
+                    <h3>Fundamentals of Information Security</h3>
+                    <p>Issued by: Infosys</p>
+                    <p>Date: July 26 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Extra-curricular activities-->
+
+    <section id = "curricular" class = "section" style="display: none;">
+        <div class="activity-list">
+            <div class="activity-card">
+                <img src="debate-club.jpg" alt="Debate Competition">
+                <div class="content">
+                    <h3>Debate Competition</h3>
+                    <p>Participated in the inter-college debate competition and secured 1st place.</p>
+                    <p class="date">Date: March 2024</p>
+                </div>
+            </div>
+
+            <div class="activity-card">
+                <img src="sports-event.jpg" alt="Sports Event">
+                <div class="content">
+                    <h3>Sports Meet</h3>
+                    <p>Represented the college in football and reached the semi-finals in the state-level tournament.</p>
+                    <p class="date">Date: December 2023</p>
+                </div>
+            </div>
+
+            <div class="activity-card">
+                <img src="cultural-fest.jpg" alt="Cultural Festival">
+                <div class="content">
+                    <h3>Cultural Festival</h3>
+                    <p>Organized and hosted the annual cultural festival attended by 500+ students.</p>
+                    <p class="date">Date: February 2024</p>
+                </div>
+            </div>
+
+            <div class="activity-card">
+                <img src="volunteer-work.jpg" alt="Volunteer Work">
+                <div class="content">
+                    <h3>Community Volunteering</h3>
+                    <p>Volunteered in a tree plantation drive, contributing to environmental sustainability.</p>
+                    <p class="date">Date: September 2023</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sushrutha Shanbhogue. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
+>>>>>>> 8954dd88f0565be425c26b3beb6cfff53168790e
