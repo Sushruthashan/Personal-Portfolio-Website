@@ -388,4 +388,10 @@ tr:hover {
         width: 95%;
     }
 
+    p {
+        text-align: left !important;
+        line-height: 1.7;
+        word-spacing: normal;
+    }
+
 }
