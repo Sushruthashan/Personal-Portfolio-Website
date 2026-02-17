@@ -98,35 +98,36 @@ nav a:hover {
 }
 
 .project-card {
-    background-color: lightgray;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: black;
     border-radius: 8px;
     width: 50%;
     height: fit-content;
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    align-self: center;
 }
 
 .project-card img {
     width: 50%;
-    margin-left: 25%;
     border-radius: 8px;
     margin-bottom: 15px;
+    align-self: center;
 }
 
 .project-card h4 {
     margin: 0 0 10px;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .project-card p {
     margin: 0;
     font-size: 1rem;
-    color: black;
+    color: white;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -288,4 +289,95 @@ tr:hover {
     font-size: 0.8rem;
     color: #999;
     margin-top: 5px;
+}
+
+/* =========================================================
+   MOBILE RESPONSIVE FIXES (DO NOT REMOVE ORIGINAL STYLES)
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    /* ---------- Navigation ---------- */
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    /* ---------- Header ---------- */
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+    }
+
+    /* ---------- Profile Section ---------- */
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile img {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 140px;
+        height: 140px;
+    }
+
+    /* ---------- About Section ---------- */
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 220px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* ---------- Projects ---------- */
+    .project-card {
+        width: 95%;
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ---------- Tables (Marks) ---------- */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* ---------- Sections ---------- */
+    section {
+        padding: 20px 12px;
+    }
+
+    /* ---------- Contact ---------- */
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input, textarea {
+        width: 95%;
+    }
+
 }

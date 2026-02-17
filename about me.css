@@ -94,3 +94,45 @@
         font-size: 1rem;
     }
 }
+
+/* =========================================================
+   ABOUT PAGE MOBILE FIXES (DO NOT REMOVE ORIGINAL STYLES)
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .about-wrapper {
+        padding: 15px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .about-image {
+        margin-top: 20px;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
