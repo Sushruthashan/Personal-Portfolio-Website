@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
     color: #333;
 }
 
 header {
-    background-image: url('https://www.imageshine.in/uploads/gallery/low-poly-art-light-background-pictures.png');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/250px-Black.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -18,6 +17,13 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header .profile-image {
@@ -51,6 +57,7 @@ nav a {
     margin: 0 10px;
     font-weight: 500;
     font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;
 }
@@ -88,6 +95,7 @@ nav a:hover {
 .section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .projects, .contact {
